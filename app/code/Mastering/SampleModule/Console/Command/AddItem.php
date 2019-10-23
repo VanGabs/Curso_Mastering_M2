@@ -15,6 +15,7 @@ class AddItem extends Command
     const INPUT_KEY_DESCRIPTION = 'description';
 
     private $itemFactory;
+   
 
     public function __construct(ItemFactory $itemFactory)
     {
