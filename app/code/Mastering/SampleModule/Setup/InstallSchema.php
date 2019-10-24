@@ -31,11 +31,11 @@ class InstallSchema implements InstallSchemaInterface
             ['nullable' => false],
             'Item Name'
         )->addIndex(
-            $setup->getIdxName('mastering_sample_item', ['name']),
+ $setup->getIdxName('mastering_sample_item', ['name']),
             ['name']
         )->setComment(
-            'Sample Items'
-        );
+    'Sample Items'
+);
         $setup->getConnection()->createTable($table);
 
         $setup->endSetup();

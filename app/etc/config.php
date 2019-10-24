@@ -233,6 +233,7 @@ return [
         'MSP_TwoFactorAuth' => 1,
         'Magedin_CourseExample' => 1,
         'Mastering_SampleModule' => 1,
+        'Project_Test' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1
     ]
