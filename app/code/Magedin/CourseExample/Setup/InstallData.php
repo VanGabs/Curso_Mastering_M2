@@ -1,13 +1,12 @@
 <?php
 namespace Magedin\CourseExample\Setup;
 
-use Magento\Framework\Setup\InstallSchemaInterface;
+use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
-use Magento\Framework\Setup\SchemaSetupInterface;
-use Magedin\CourseExample\Api\Data\ExampleInterface;
+use Magento\Framework\Setup\ModuleDataSetupInterface;
 
 
-class InstallData implements InstallSchemaInterface
+class InstallData implements InstallDataInterface
 {
     /**
     * @param ModuleDataSetupInterface $setup
